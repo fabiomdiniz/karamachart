@@ -6,9 +6,6 @@ from google.appengine.ext.webapp import template
 
 import os
 
-from users.models import User
-from users.views import get_or_create_user
-
 import logging
 
 class MainPage(webapp.RequestHandler):
