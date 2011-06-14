@@ -1,0 +1,22 @@
+* { font-family: 'Kameron', arial, serif; } 
+
+#leftside {
+	position: absolute;
+	top: 0px;
+	width: 280px;
+	left: 10px;
+}
+
+#rightside {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	right: 20px;
+}
+
+#footer {
+	position: absolute;
+	top: 720px;
+	right:20px;
+	width:200px;
+}
