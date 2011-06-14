@@ -27,12 +27,14 @@
 #if __name__ == "__main__":
 #    main()
 
-
+import bottle
 from bottle import route, run, template
+
+bottle.debug(True)
 
 @route('/')
 def index():
     return template('index')
 
 # ... build or import your bottle application here ...
-run(server='gae')    
+run(server='gae')
